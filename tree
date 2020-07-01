@@ -1,0 +1,9 @@
+comando nivel caminhododiretório
+tree -L 2 Downloads 
+
+tree -L 1 Downloads/
+  árvore do diretório Downloads - primeiro nível
+tree -L 2 Downloads/
+  árvore do diretório Downloads - segundo nível
+tree -L 1 ~/dir01/dir02/
+  árvore do dir02 (que está dentro do dir01) - primeiro nível
