@@ -1,0 +1,13 @@
+touch nomedoarquivo
+    cria o arquivo "nomedoarquivo"
+touch nomedoarquivo01 nomedoarquivo02.txt nomedoarquivo03.py
+    cria os seguintes arquivos  "nomedoarquivo01" "nomedoarquivo02.txt" "nomedoarquivo03.py"
+touch nomedoarquivo-{1..4}.txt
+    cria os arquivos nomedoarquivo-01.txt nomedoarquivo-02.txt nomedoarquivo-03.txt nomedoarquivo-04.txt
+touch -ct 202009201055.55 dataalteracao.txt
+    cria o arquivo  dataalteracao.txt com data de alteração 20/09/2020 horário: 10:55:55
+
+man touch
+    página de manual
+touch --help
+    tópicos principais
